@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "==2.1.1"
+flask-cors = "==3.0.10"
+flask-pymongo = "==2.3.0"
+werkzeug = "==2.1.1"
+flask-jwt-extended = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
