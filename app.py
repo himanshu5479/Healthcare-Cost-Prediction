@@ -19,7 +19,8 @@ app.config['JWT_SECRET_KEY'] = os.getenv('JWT_SECRET_KEY')
 
 # Initialize Extensions
 mongo.init_app(app)
-CORS(app, supports_credentials=True, origins=["http://localhost:3000"])
+CORS(app, supports_credentials=True, origins=["https://healthcare-cost-prediction-frontend.onrender.com"])
+
 
 jwt = JWTManager(app)
 
